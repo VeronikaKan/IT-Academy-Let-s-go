@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: #FF5B00;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1712px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+button {
+    border: none;
+    color: transparent;
+}
+
+.header__wrapper {
+    padding: 39px 0 39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.header__ul {
+    display: flex;
+
+}
+
+.header__link {
+    font-family: Etelka Text Pro;
+    margin-left: 51px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    transition: 0.6s;
+
+}
+.header__link:hover{
+    transform: rotate(360deg);
+}
+
+
+.header__btn {
+    display: block;
+    width: 37px;
+    height: 25px;
+    left: 2017px;
+    top: 38px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+
+.header__btn:first-child {
+    margin-right: 13px;
+}
+
+.header__lang {
+    display: flex;
+}
+
+/* main */
+
+main {
+
+    padding-bottom: 216px;
+    background-color: #FF5B00;
+}
+
+.main__wrapper {
+    padding: 160px 0 518px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main__img {
+    position: absolute;
+    width: 699px;
+    right: 478px;
+    top: 144px;
+    transition: 0.06s;
+
+}
+.main__img img:hover{
+    transform: rotate(13deg);
+}
+.main__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main__ellipse {
+    position: absolute;
+    width: 829px;
+    right: 440px;
+    top: 230px;
+
+}
+
+.main__ellipse img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main__lets {
+    position: relative;
+}
+
+.main__figures {
+    position: absolute;
+    top: 433px;
+    left: -430px;
+    /* width: 406px; */
+    /* height: 1394px; */
+    /* background: linear-gradient(180deg, #FFA776 0%, rgba(255, 91, 0, 0) 127.33%); */
+    /* transform: rotate(-180deg); */
+}
+
+.main__title {
+
+    font-family: 'Etelka Wide Medium Pro';
+    font-weight: 900;
+    font-size: 220px;
+    line-height: 220px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.main__subtitle {
+    font-family: 'Etelka Wide Medium Pro';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 74px;
+    color: #121212;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+
+}
+
+.main__desc {
+    font-family: 'Etelka Wide Text Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.main__be-part {
+    max-width: 800px;
+    font-family: 'Etelka Wide Medium Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 74px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main__be-part::before {
+    content: "“";
+    position: absolute;
+    font-weight: 400;
+    font-size: 420px;
+    line-height: 280px;
+    color: #121212;
+    left: -262px;
+    top: 60px;
+
+}
+
+.main__be-part span {
+    color: #121212;
+}
+
+.main__dots {
+    position: relative;
+}
+
+.main__dots img {
+    position: absolute;
+    top: -200px;
+    left: 0;
+}
+
+/* about */
+.about {
+    padding: 168px 0 500px;
+    background-color: #1E1E1E;
+}
+
+.about__wrapper {
+    display: flex;
+}
+
+.about__images {
+    width: 50%;
+    position: relative;
+}
+
+.about__figure {
+    top: -200px;
+
+}
+
+.about__content {
+    width: 50%;
+}
+
+.about__astroman {
+    top: 50px;
+    right: 5px;
+}
+
+.about__images img {
+    position: absolute;
+}
+
+.about__we-are {
+
+    font-family: 'Etelka Wide Medium Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 160px;
+    line-height: 160px;
+    color: #FFFFFF;
+
+}
+
+.about__info {
+    font-family: 'Etelka Wide Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 386px;
+    ;
+    max-width: 615px;
+    margin-top: 30px;
+}
+
+
+/* products */
+.product {
+    padding: 276px 0 284px;
+    background-color: #FF5B00;
+}
+
+.product__title {
+    font-family: 'Etelka Wide Medium Pro';
+    font-weight: 500;
+    font-size: 160px;
+    line-height: 160px;
+    color: #121212;
+    max-width: 828px;
+    margin-bottom: 94px;
+}
+
+.product__title span {
+    color: #FFFFFF;
+}
+
+.product__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 209px;
+}
+
+.product__info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 94px;
+    align-items: end;
+
+
+}
+
+.product__img {
+    width: 182px;
+    position: relative;
+}
+
+.product__img .product__bottle {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product__astroman {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+.product__ellipse {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product__subtitle {
+    font-family: 'Etelka Wide Medium Pro';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+
+.product__subtitle::before {
+    content: "/ ";
+    font-weight: 500;
+    font-size: 60px;
+    color: #121212;
+}
+
+.product__desc {
+    font-family: 'Etelka Wide Text Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    max-width: 394px;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Etelka Text Pro';
+    src: url('./EtelkaTextPro.eot');
+    src: local('./Etelka Text Pro'), local('EtelkaTextPro'),
+        url('./EtelkaTextPro.eot?#iefix') format('embedded-opentype'),
+        url('./EtelkaTextPro.woff2') format('woff2'),
+        url('./EtelkaTextPro.woff') format('woff'),
+        url('./EtelkaTextPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
+  @font-face {
+        font-family: 'Etelka Wide Medium Pro';
+        src: url('./EtelkaWideMediumPro.eot');
+        src: local('./Etelka Wide Medium Pro'), local('EtelkaWideMediumPro'),
+            url('./EtelkaWideMediumPro.eot?#iefix') format('embedded-opentype'),
+            url('./EtelkaWideMediumPro.woff2') format('woff2'),
+            url('./EtelkaWideMediumPro.woff') format('woff'),
+            url('./EtelkaWideMediumPro.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
